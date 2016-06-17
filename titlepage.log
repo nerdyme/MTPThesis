@@ -1,0 +1,633 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.21)  4 JAN 2016 06:24
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**titlepage.tex
+(./titlepage.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 4 languages loaded.
+
+! LaTeX Error: Environment titlepage undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{titlepage}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{center}
+                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 2--2
+[] 
+ []
+
+! Undefined control sequence.
+l.4 \LARGE
+          {\textsf{\bfseries ENTER YOUR THESIS TITLE HERE}}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (35.13908pt too wide) in paragraph at lines 4--4
+ \OT1/cmss/bx/n/10 ENTER 
+ []
+
+
+Overfull \hbox (29.94461pt too wide) in paragraph at lines 4--4
+ \OT1/cmss/bx/n/10 YOUR 
+ []
+
+
+Overfull \hbox (25.36125pt too wide) in paragraph at lines 4--4
+ \OT1/cmss/bx/n/10 THE- 
+ []
+
+
+Overfull \hbox (15.52785pt too wide) in paragraph at lines 4--4
+ \OT1/cmss/bx/n/10 SIS 
+ []
+
+
+Overfull \hbox (14.30562pt too wide) in paragraph at lines 4--4
+ \OT1/cmss/bx/n/10 TI- 
+ []
+
+
+Overfull \hbox (19.55566pt too wide) in paragraph at lines 4--4
+ \OT1/cmss/bx/n/10 TLE 
+ []
+
+
+Overfull \hbox (27.80571pt too wide) in paragraph at lines 4--4
+ \OT1/cmss/bx/n/10 HERE 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \normalsize
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (7.43329pt too wide) in paragraph at lines 7--7
+ []\OT1/cmr/m/it/10 A 
+ []
+
+
+Overfull \hbox (16.61098pt too wide) in paragraph at lines 7--7
+ \OT1/cmr/m/it/10 the- 
+ []
+
+
+Overfull \hbox (11.24438pt too wide) in paragraph at lines 7--7
+ \OT1/cmr/m/it/10 sis 
+ []
+
+
+Overfull \hbox (17.63321pt too wide) in paragraph at lines 7--7
+ \OT1/cmr/m/it/10 sub- 
+ []
+
+
+Overfull \hbox (18.14432pt too wide) in paragraph at lines 7--7
+ \OT1/cmr/m/it/10 mit- 
+ []
+
+
+Overfull \hbox (12.52211pt too wide) in paragraph at lines 7--7
+ \OT1/cmr/m/it/10 ted 
+ []
+
+
+Overfull \hbox (8.68884pt too wide) in paragraph at lines 7--7
+ \OT1/cmr/m/it/10 in 
+ []
+
+
+Overfull \hbox (17.50542pt too wide) in paragraph at lines 7--7
+ \OT1/cmr/m/it/10 par- 
+ []
+
+
+Overfull \hbox (14.05547pt too wide) in paragraph at lines 7--7
+ \OT1/cmr/m/it/10 tial 
+ []
+
+
+Overfull \hbox (14.56657pt too wide) in paragraph at lines 7--7
+ \OT1/cmr/m/it/10 ful- 
+ []
+
+
+Overfull \hbox (14.82213pt too wide) in paragraph at lines 7--7
+ \OT1/cmr/m/it/10 fill- 
+ []
+
+
+Overfull \hbox (22.67068pt too wide) in paragraph at lines 7--7
+ \OT1/cmr/m/it/10 ment 
+ []
+
+
+Overfull \hbox (8.17773pt too wide) in paragraph at lines 8--8
+ []\OT1/cmr/m/it/10 of 
+ []
+
+
+Overfull \hbox (13.03323pt too wide) in paragraph at lines 8--8
+ \OT1/cmr/m/it/10 the 
+ []
+
+
+Overfull \hbox (11.88321pt too wide) in paragraph at lines 8--8
+ \OT1/cmr/m/it/10 re- 
+ []
+
+
+Overfull \hbox (24.91646pt too wide) in paragraph at lines 8--8
+ \OT1/cmr/m/it/10 quire- 
+ []
+
+
+Overfull \hbox (25.81094pt too wide) in paragraph at lines 8--8
+ \OT1/cmr/m/it/10 ments 
+ []
+
+
+Overfull \hbox (12.39436pt too wide) in paragraph at lines 8--8
+ \OT1/cmr/m/it/10 for 
+ []
+
+
+Overfull \hbox (13.03323pt too wide) in paragraph at lines 8--8
+ \OT1/cmr/m/it/10 the 
+ []
+
+
+Overfull \hbox (13.28879pt too wide) in paragraph at lines 8--8
+ \OT1/cmr/m/it/10 de- 
+ []
+
+
+Overfull \hbox (16.99426pt too wide) in paragraph at lines 8--8
+ \OT1/cmr/m/it/10 gree 
+ []
+
+
+Overfull \hbox (10.29718pt too wide) in paragraph at lines 8--8
+ \OT1/cmr/m/it/10 of 
+ []
+
+
+Overfull \hbox (65.59686pt too wide) in paragraph at lines 10--10
+ []\OT1/cmr/bx/n/10 BACHELOR 
+ []
+
+
+Overfull \hbox (15.87491pt too wide) in paragraph at lines 10--10
+ \OT1/cmr/bx/n/10 OF 
+ []
+
+
+Overfull \hbox (36.69424pt too wide) in paragraph at lines 10--10
+ \OT1/cmr/bx/n/10 TECH- 
+ []
+
+
+Overfull \hbox (28.38873pt too wide) in paragraph at lines 10--10
+ \OT1/cmr/bx/n/10 NOL- 
+ []
+
+
+Overfull \hbox (26.37485pt too wide) in paragraph at lines 10--10
+ \OT1/cmr/bx/n/10 OGY 
+ []
+
+
+Overfull \hbox (10.99808pt too wide) in paragraph at lines 12--12
+ []\OT1/cmr/bx/it/10 in 
+ []
+
+
+Overfull \hbox (50.89558pt too wide) in paragraph at lines 14--14
+ []\OT1/cmr/bx/n/10 Computer 
+ []
+
+
+Overfull \hbox (18.52768pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 Sci- 
+ []
+
+
+Overfull \hbox (22.04156pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 ence 
+ []
+
+
+Overfull \hbox (8.9444pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 & 
+ []
+
+
+Overfull \hbox (17.77768pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 En- 
+ []
+
+
+Overfull \hbox (12.77771pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 gi- 
+ []
+
+
+Overfull \hbox (25.4999pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 neer- 
+ []
+
+
+Overfull \hbox (15.33325pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 ing 
+ []
+
+
+Overfull \hbox (11.98878pt too wide) in paragraph at lines 16--16
+ []\OT1/cmr/bx/it/10 by 
+ []
+
+! Undefined control sequence.
+l.18 \Large
+           {\textsf{\bfseries ENTER YOUR NAME}} \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (35.13908pt too wide) in paragraph at lines 18--18
+ []\OT1/cmss/bx/n/10 ENTER 
+ []
+
+
+Overfull \hbox (29.94461pt too wide) in paragraph at lines 18--18
+ \OT1/cmss/bx/n/10 YOUR 
+ []
+
+
+Overfull \hbox (31.4724pt too wide) in paragraph at lines 18--18
+ \OT1/cmss/bx/n/10 NAME 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 {\normalsize
+                  \textsf{\bfseries Entry No. ENTRY NUMBER}}\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (24.79178pt too wide) in paragraph at lines 19--19
+ []\OT1/cmss/bx/n/10 Entry 
+ []
+
+
+Overfull \hbox (16.50009pt too wide) in paragraph at lines 19--19
+ \OT1/cmss/bx/n/10 No. 
+ []
+
+
+Overfull \hbox (18.02788pt too wide) in paragraph at lines 19--19
+ \OT1/cmss/bx/n/10 EN- 
+ []
+
+
+Overfull \hbox (21.69456pt too wide) in paragraph at lines 19--19
+ \OT1/cmss/bx/n/10 TRY 
+ []
+
+
+Overfull \hbox (29.02794pt too wide) in paragraph at lines 19--19
+ \OT1/cmss/bx/n/10 NUM- 
+ []
+
+
+Overfull \hbox (20.7779pt too wide) in paragraph at lines 19--19
+ \OT1/cmss/bx/n/10 BER 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 {\normalsize
+                  \emph {Under the guidance of}}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (31.55804pt too wide) in paragraph at lines 22--23
+ []\OT1/cmr/bx/it/10 Under 
+ []
+
+
+Overfull \hbox (15.08316pt too wide) in paragraph at lines 22--23
+ \OT1/cmr/bx/it/10 the 
+ []
+
+
+Overfull \hbox (25.13863pt too wide) in paragraph at lines 22--23
+ \OT1/cmr/bx/it/10 guid- 
+ []
+
+
+Overfull \hbox (22.4664pt too wide) in paragraph at lines 22--23
+ \OT1/cmr/bx/it/10 ance 
+ []
+
+
+Overfull \hbox (12.08884pt too wide) in paragraph at lines 22--23
+ \OT1/cmr/bx/it/10 of 
+ []
+
+! Undefined control sequence.
+<recently read> \Large 
+                       
+l.24 \Large
+           {\textsf{\bfseries YOUR ADVISER}} \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (29.94461pt too wide) in paragraph at lines 24--24
+ []\OT1/cmss/bx/n/10 YOUR 
+ []
+
+
+Overfull \hbox (18.94455pt too wide) in paragraph at lines 24--24
+ \OT1/cmss/bx/n/10 AD- 
+ []
+
+
+Overfull \hbox (30.1946pt too wide) in paragraph at lines 24--24
+ \OT1/cmss/bx/n/10 VISER 
+ []
+
+! Undefined control sequence.
+l.28 \includegraphics
+                     [scale=0.2]{iit_logo.pdf} \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.28 \includegraphics[scale=0.2]{iit_
+                                     logo.pdf} \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 28.
+! Extra }, or forgotten $.
+l.28 \includegraphics[scale=0.2]{iit_logo.pdf}
+                                               \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \includegraphics[scale=0.2]{iit_logo.pdf} \\
+                                                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.28 \includegraphics[scale=0.2]{iit_logo.pdf} \\
+                                                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.28 \includegraphics[scale=0.2]{iit_logo.pdf} \\
+                                                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (99.80316pt too wide) in paragraph at lines 28--28
+ []\OT1/cmr/bx/n/10 [scale=0.2]iit$[]\OML/cmm/m/it/10 ogo:pdf[]$ 
+ []
+
+! Undefined control sequence.
+l.31 \large
+           {\textsc{Department of Computer Science and Engineering,\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
+(Font)              using `OT1/cmr/bx/n' instead on input line 32.
+
+
+Overfull \hbox (60.6733pt too wide) in paragraph at lines 32--32
+ []\OT1/cmr/bx/n/10 Department 
+ []
+
+
+Overfull \hbox (9.26384pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 of 
+ []
+
+
+Overfull \hbox (27.47208pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 Com- 
+ []
+
+
+Overfull \hbox (27.25682pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 puter 
+ []
+
+
+Overfull \hbox (18.52768pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 Sci- 
+ []
+
+
+Overfull \hbox (22.04156pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 ence 
+ []
+
+
+Overfull \hbox (18.36794pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 and 
+ []
+
+
+Overfull \hbox (17.77768pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 En- 
+ []
+
+
+Overfull \hbox (12.77771pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 gi- 
+ []
+
+
+Overfull \hbox (25.4999pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 neer- 
+ []
+
+
+Overfull \hbox (18.52768pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 ing, 
+ []
+
+
+Overfull \hbox (32.3123pt too wide) in paragraph at lines 32--32
+ []\OT1/cmr/bx/n/10 Indian 
+ []
+
+
+Overfull \hbox (14.58325pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 In- 
+ []
+
+
+Overfull \hbox (16.03601pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 sti- 
+ []
+
+
+Overfull \hbox (20.60406pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 tute 
+ []
+
+
+Overfull \hbox (9.26384pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 of 
+ []
+
+
+Overfull \hbox (27.32625pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 Tech- 
+ []
+
+
+Overfull \hbox (19.16656pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 nol- 
+ []
+
+
+Overfull \hbox (17.56935pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 ogy 
+ []
+
+
+Overfull \hbox (30.06235pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 Delhi. 
+ []
+
+
+Overfull \hbox (22.2568pt too wide) in paragraph at lines 32--33
+ []\OT1/cmr/bx/n/10 May 
+ []
+
+
+Overfull \hbox (26.1943pt too wide) in paragraph at lines 32--33
+ \OT1/cmr/bx/n/10 2013. 
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{titlepage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \end{titlepage}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> titlepage.tex
+                 
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 23 strings out of 494985
+ 339 string characters out of 6180355
+ 49094 words of memory out of 5000000
+ 3335 multiletter control sequences out of 15000+600000
+ 5252 words of font info for 19 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 18i,2n,12p,90b,150s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

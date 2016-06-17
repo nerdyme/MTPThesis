@@ -1,0 +1,200 @@
+\chapter {Local Governance Application}
+
+%Replace \lipsum with text.
+% You may have as many sections as you please. This is just for reference.
+\section {What is Gologo?}
+
+Gologo is an android operating system based local governance application which will provide the functionalities to volunteers for sending infotainment news and announcements to the local residentials of the community. Users (Volunteers) of the application will be able to broadcast news among localites in an easy and quick way.  The system provides platform to send quick audio and message updates to the relevant users. Volunteers will receive alerts regarding ongoing surveys from the authorized block/ district officials (through web portal)  on their application to launch surveys in their community. They can also track responses of the people for the surveys which are launched. Consequentially, System helps in delegating governance responsibilities to the community people in an effective and relevant manner.
+
+\section {Functionalities}
+The android application which is provided to the human access points/ Volunteers of the society has the following features.
+
+\begin{itemize}
+\item \textbf{One Time Login} : After registration through the web portal [web portal chapter link], volunteer receives a unique pin number of 6 digits on his registered mobile number. After installing the application, user has to do one time login. On first time login in gologo, the volunteer is authenticated for the application with his registered contact number and received PIN. On right credentials, volunteer can directly use all the functionalities as verification will be done only once. 
+\ref{fig:pin_authenticate}
+
+Also, on first time login. GCM registration on GCM server will be done and user receives a unique registration ID. This registration ID will be used to send alerts to the user. Also, all requests to the app server involves the authentication through the obtained registration ID. The uniqueness of the registration ID will help in authenticating the user via taking registration ID as key.  [GCM chapter link]. 
+
+\item \textbf{Broadcast Announcements} : After authentication from the server into the android app, the user can select the option of Broadcast Audio on the home screen. Under this option, the app user gets a recording screen through which he/she can record an audio message or any instant broadcast. Then, contacts picker screen [link of figure of contact options] appears through which he can select the either of the following options :
+
+\begin{itemize}
+	\item Concerned multiple gram vaani groups 
+	\item Local contacts saved in phone 
+	\item Mobile Vaani callers between a  particular duration
+\end{itemize}
+
+After selecting a particular option, he chooses the target people and clicks on send people. After Clicking on send button, a request to the app server is made to send the audio. The message will be then sent to the contacts through Gram Vaani voice calls.  Application user will receive an alert  message through the GCM notification when message gets played to the target audience. Either of the two options given below can be selected to send the audio
+
+Recorded audio message will be saved in the mobile vaani instance as content so that people can later listen to it when they give calls to the IVR.
+
+\item \textbf{Survey Dial Outs} : Volunteer acts as a bridge between the
+NGOs/District officials etc to make the surveys available to the end
+people. Results will be notified to both the admins through applica-
+tion and NGO personnel through the website.
+
+Volunteer  chooses this option to launch the survey in his community. A request will be sent to the application server having the authenticated gcm id to get a list of ongoing recent surveys from the gram vaani server. Each listed survey will have the following options:
+	\begin{enumerate}
+	\item{ View Survey} : Volunteer can view the questions of a particular survey. When volunteer selects a survey, the unique survey id along with the authenticated credentials will be sent to the application server.  Application user gets a list of text questions.
+
+	\item{Launch Survey} :  Volunteer can launch a particular survey in his community via two ways.
+	
+		\begin{enumerate}
+	\item\textbf{On receiving GCM notification} : NGO/ District official are provided with the functionality on the web portal to send gcm notifications to the registered users [link of survey image on portal]. List of surveys will be displayed to the NGO personnel. He will select a particular survey and the location where survey is to launched. Depending upon the selected location, portal displays a list of registered volunteers. He will select the volunteer and click on send which will send a gcm notification alert to the respective volunteer on his application. Application user clicks on notification to launch that survey by sending a list of relevant contacts to the application server.
+
+
+\item\textbf{On pressing launch button on application} : By clicking on launch button, volunteer is provided with the contact options where he will choose the list of contacts from the given options. A request with survey id and list of contacts  will be sent to the application server for the dial outs.
+	\end{enumerate}
+
+
+\item {View Survey responses} :  This functionality is provided to view the status of launched survey. Volunteer can track the number of people who responded the survey calls. Application also lists the count of responses corresponding to each question. In survey dial outs, it is possible that receiver won’t respond to all questions and cut the call in between.  In that scenario, volunteer also gets the statistics of responses per question. It will help him in acknowledging the survey status. He can also send the message alerts to the community regarding survey reminders.
+\end{enumerate}
+
+\item\textbf {Send text Alerts} - Similar to the audio message, the user can
+send a text message to the selected contacts. The user selects the Send
+message button from the home screen, selects the contacts/groups from
+one or more of the three options described above and sends the message
+which then makes a request to the app server to send the message to
+the selected contacts through Gramvaani server. Templates are registered with the gram vaani where volunteer will feed only the values related to a particular template. It helps in informing end users instantly regarding the news of surveys, government schemes or future camps nearby the locality area. Following templates are used to send text message alerts to the target people.
+
+\begin{enumerate}
+\item \textbf {Template 1. Announcement of surveys} - Text alert of survey to be launched in the community will be sent with the specified date to inform people regarding the survey launch. Application user selects the date of launching using date picker. Selected value will be fed in the template.
+
+Input Params: date 
+
+Message Template (English) : Dear all, a Survey ​will be launched in your village on date <date> by Mobilevaani. Please submit your responses sincerely. ​Team Mobile Vaani.
+ 
+Message Template (Hindi) : Priye nivaasiyon​, mobile vaani dwara ​ek sarvekshan dinaank <date> ko ​aapke​ gaanv mein shuru kiya jaega. Kripaya apni pratikriya ​jaroor​  prastut karen. Team Mobile Vaani.
+
+\item \textbf {Template 2. Announcement of Camps (with timings)} - Text alert of upcoming camp to be organised in the community will be sent with the specified parameters to inform people. Application user selects the parameters from the drop down and insert the values in edit text date of launching using date picker. Selected value will be fed in the template.
+
+Input Params: campname,  startdate, enddate,  starttime, endtime, venue
+ 
+Message Template (English) : <campname> Camps will be organized at <venue> from ​date <​startdate> ​to <enddate​> with timings from <starttime> to <endtime>. Kindly participate in the camp to take​ its maximum benefits. Team Mobile vaani.
+
+Message Template (Hindi) : Priye nivaasiyon​, <campname> camp <venue> sthaan par dinaank <startdate> se <enddate> ko samay <starttime> se <endtime> tak aayojit kiya jaega. Kripaya camp mein bhaag lekar iska adhiktam laabh uthae. Team Mobile vaani. 
+
+
+\item \textbf {Template 3. Announcement of Camps(without timings)} - Text alert of upcoming camp to be organised in the community will be sent with the specified parameters to inform people. Application user selects the parameters from the drop down options and insert the values in edit text. Selected values will be fed in the template.
+
+Input Params: campname, startdate, enddate, venue
+
+Message Template (English) - <campname> Camps will be organized at <venue> from ​date <​startdate> ​to <enddate​>. Kindly participate in the camp to take​ its maximum ​benefits. From Team Mobilevaani.
+ 
+Message Template (Hindi) - Priye nivaasiyon​, <campname> camp <venue> sthaan par dinaank <startdate> se <enddate> ko aayojit kiya jaega. Kripaya camp mein bhaag lekar iska adhiktam laabh uthaen.Team mobile vaani.
+
+\item \textbf {Template 4. Announcement of Govt. Schemes} - 
+
+Input Params: schemename, date, beneficiaryname 
+    ​
+​Message Template (English) - Dear all, Government has launched <schemename> Scheme on date <date> for <beneficiaryname>​. For more information, contact the volunteers ​and 
+take​ its maximum ​benefits. Team ​Mobilevaani. 
+ 
+Message Template (Hindi) - Priye nivaasiyon​, sarkaar dwara <​schemename​> yojana dinaank <date> ko ​< ​beneficiaryname​> ke lie ​shuru ki gai hai. Adhik jankari ke lie volunteers se sampark karen aur iska adhiktam laabh le.Team mobile vaani.
+\end{enumerate}
+
+
+\item \textbf {Add a group} - Volunteers are given this functionality for the management of contact groups. Multiple contact groups are made and managed as per the groups of the community. It helps in easy dissemination of information to the relevant audience. App user will be asked to speak group name where his voice will fill the text view. When user clicks on create button, new contact group with that name will be created in the corresponding application instance. [refer to contact group image] [put sequence diagram of info flow].
+
+For example, if some polio booth camp is to be organised in the community, then only the relevant people who have children of age 3-5 should be informed instead of unnecessary sending dial outs to all people.
+
+Similarly, Survey regarding death due to pregnancy will be sent to homes having women. Dial out will be made to only those contacts/ contact groups who falls in this category. 
+
+Global surveys can be sent across all groups which are relevant to all people of the community.
+
+ \item \textbf {Add a contact} - The app users can add a new contact. The user selects the option of Add a contact on the  home screen of application. In this option, he can fill in all the details of a new contact of his community having name, contact number, gender, date of birth, contact groups and location URI. Volunteer need not to type the name of the contact. He can simply speak the name of the person by clicking on speaker image and it will be converted into text. Phone will be a ten digit mobile number. Gender is a drop down menu containing ‘F’ and ‘M’ as the options. Date of Birth can be chosen using date picker. One contact can be added in multiple  contact groups. Contact groups are fetched from the gram vaani instance. Application user gets a check list having all existing contact groups where he can select one or more groups to add contact in it. Locations are also fetched from the gram vaani database where each location contains block, district and state. [figure reference]
+
+Volunteer fills all the details from the options into the text boxes and spinners. When he clicks on create, a dialog box asking for confirmation pops up. He can either click on edit to change any detail or on confirm to add the new contact.
+
+When volunteer clicks on confirm, a request having json data will be sent to the  gram vaani server from the application server to update its contacts through APIs. In json data, location URI corresponding to each location will be sent. Also, block, district and state will be extracted from the displayed locations and sent separately. Similarly, ids of the contact groups corresponding to each contact group name will be sent. In a way, json data will be sent to the server in terms of key value pairs. [sequence diagram of add contact]
+
+ After confirmation, the app server sends added contact response. Thus, contacts will be synced from and to the Gram vaani server.
+
+\section {Options on Menu Bar}
+
+Some quick options are provided on the application which are available across all activities. Application  user can navigate across these options. Following options are explained :
+\begin{enumerate}
+\item \textbf {My Profile} - A volunteer can view all his details which are entered when he was registered through the portal. His details contains his user type, name, registered number, date of birth, gender, block, district and state.
+\item \textbf{Home} - The user can directly go to the home screen from any screen.
+\item \textbf{Application Information} - This option enlists the usability of each option on home screen with a brief description. It helps the application user to know about the functioning of each option on menu.
+\item \textbf{Gram Vaani Website} - This option redirects the volunteer to the portal of the gram vaani from the application.
+\item \textbf{View Recordings} - Volunteer can view all the recordings he did directly from the application.
+\item \textbf{Share Application} - Volunteer can share the link of .apk file of the application among the people using various options like Whatsapp, Gmail, Facebook etc. It sends the message along with the link to spread the word.
+\end{enumerate}
+
+
+\section {Usability}
+
+Application can be used extensively to achieve various benefits. Volunteers will receive on ground training for the usability of the application. People will be taught regarding its usage and advantages. They will learn how these community people can be benefitted by it and how information can be disseminated among people by using it effectively. It will bring changes among the lives of poor people by equipping them with the tool of information. Their basic phones will be used to respond to the surveys, to view recent news, to receive text alerts, to listen audio announcements, to browse through the content by dialing to the mobile vaani. Following uses are listed below :
+
+\begin {enumerate}
+\item Volunteers can use the application to receive alerts sent by the NGO/ Block/ District officials.
+\item Volunteers can use the application to send text alerts related to any recent news, entertainment shows, ongoing infotainment media  etc.
+\item Information related to government schemes can be disseminated among the people.
+\item Information related to community camps to organise in the society can be broadcasted through text alerts.
+\item Instant audio messages to the relevant audience can be sent as dial outs by selecting concerned contact groups.
+\item Contact groups can be managed which helps in easy handling of large target community. Groups like “Teachers”, “Farmers”, “Women”, “Children”, “Zamindars”, “Middle Man”, “ Wholesalers” etc can be created and maintained by adding new contacts among them properly.
+\item One to one addressing is possible by sending dial outs to individual contact numbers which helps in gathering more responses from the people.
+\item Survey responses will increase by separate dial outs which gives more realistic  survey results and accordingly, measures will be taken by the government.
+
+\end {enumerate}
+
+\section {Challenges and Suggestions}
+
+The following are some of the challenges identified in the smooth run of the process. The ones listed below are primarily from the point of view of the application and target people where in spite of rigorous training and best interest and efforts of the community representatives, their contribution may be unworthy in helping the community people.
+
+\begin {enumerate}
+
+\item \textbf{ Poor internet connectivity:}
+
+The internet connectivity in the areas where the app is operated is often not good. Even though many a times there is network available on the phone, internet connectivity speeds can be very low. Due to no internet connectivity or slower speeds, there might be delay in the time when the text updates or dial outs are received at the community level. Also, large audio announcements in MBs will take more time to upload on the server and requires continuous net connectivity. On flaky networks, it will result in repeated failures while uploading. A continuous net connectivity will help in smooth uploading of the audio files. Rest, all functionalities require change of text data which will work in poor connectivity areas or when app user comes in affinity of the internet, data can be exchanged over the network.
+
+\item \textbf{ Long Power Cuts}
+
+A number of times, there are long power cuts due to which the Android phones cannot be easily charged again. Imagine a scenario where a community representative has to delegate some information to the community, but due to inability to charge the phone his phone got switched off before the updates can be sent. In such a case, updates won’t be received at the server till the phone is switched on again and gets proper internet connectivity. In order to deal with this, the community representatives were taught about simple steps to manage their battery. For example, keeping the phone brightness low, switching of apps which connect to the internet and regularly charging their phones whenever they have electricity. These are small precautions that can be taken to avoid a situation like above but it can still be a
+cause of delay in sending information updates or dial outs to the community poeple.
+
+\item \textbf {Novice Users}
+
+Since the community representatives are novice smartphone users, a rigorous training is mandatory in which dealing with phone problems along with application usability is taught. Problems such as Message Memory Full or Phone Memory Full perplex them and they are not able to handle them. The way the phone functions is that you are not able to access anything on the phone until some memory is freed. In order to counter such situations, basic guidelines were given to the community representatives in written on how to handle such situations. But this can only be done for a few specific common problems. This is necessary as when these community representatives take their phones to a local shop to be checked, at times they delete certain applications. For instance, community representative may not be able to contribute for his community due to these issues in spite of best of intentions.
+
+
+\end {enumerate}
+
+
+\item \textbf{Contacts Selection }: Contacts to which the audio message is to be sent, can be selected in various ways as follows:\ref{fig:contactoptions}
+	\begin{enumerate}
+	\item	Contacts can be fetched from the GramVaani database through API call.
+	\item Contacts can be selected from the local phone address book.
+	\item The audio can be directly sent to the contacts who accessed mobilevaani in the last week/month and similarly other parameters (without fetching them).
+	\end{enumerate}
+	
+For example : The request to directly send the moderated audio to the contacts who called into mobilevaani in the past week/month
+
+
+	
+\item \textbf{Send a text message }: Similar to the audio message, the user can send a text message to the selected contacts. The user selects the “Send message” button from the home screen, selects the
+contacts/groups from one or more of the three options described above and sends the
+message which then makes a request to the app server to send the message to the
+selected contacts through Gramvaani server.\ref{fig:msg1}
+
+\item \textbf{Add/Edit a contact}
+The app users can add a new contact or edit a contact(which is already in the Gramvaani
+contact list). The user selects the option of “Add a contact” on the app’s home screen. In this option, he can fill in all the information of a new contact which is Name, Contact number, District, Age, Gender and submits the form.
+The user selects the option of “Edit a contact” on the app’s home screen. In this option he selects a contact from the fetched contact list from GramVaani and can edit any of its field and submits the form.
+Both of the above options request the GramVaani server to update its contacts through
+APIs. After updating its contacts, the app server sends “Added contact” or “Edited
+contact” response. Thus, Contacts will be synced from and to the GV contact list. \ref{fig:contactgroups} \ref{fig:phonecontacts}
+
+\item \textbf{Launch Survey} :
+Surveys to be conducted (as per NGO selects- explained later) will be listed on the tab
+“Launch Survey” where admin can select the survey to be launched along with the specified
+users or all phone users of the village. Admin acts as a bridge between the NGOs/District
+officials etc to make the surveys available to the end people. Results will be notified to
+both the admins through application and NGO personnel through the website. \ref{fig:viewlaunchsurvey} \ref{fig:viewsurvey}
+	
+\end{itemize}
+
+
+
+
+

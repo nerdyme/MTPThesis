@@ -1,0 +1,71 @@
+\chapter{Gram Vaani APIs Communication}
+Following GV APIs are used to achieve the functionalities given to the end users and NGO personnel.
+ 
+\section{Launch and View Surveys}
+\begin{itemize}
+\item Get Active Surveys : To get the surveys of a particular app\_instance
+\ \\
+API URL : /survey\_survey/
+\item Get Survey Questions : To get the form of a survey, which contains the questions.
+\ \\
+API URL : /form\_question/
+
+\item Get Responses : To get the responses of a survey.
+\ \\
+API URL : /survey\_record/cdr\_records/
+
+\item Create Questions : To create questions for a particular form. The responses to the questions can be of three type Voice\/MCQ\/Quantitative
+\ \\
+API URL : /form\_question/add/
+\item Upload Audio : To upload audio prompts, which can be used later as a question\/prompt
+\item Create Survey : After creating the form\_questions, the survey needed to be saved. This will make the survey active by default.
+\  \\
+API URL : /survey\_survey/save/
+
+\end{itemize}
+
+\section{Contact Groups Management}
+\begin{itemize}
+\item Get Contact Lists\/Groups : Fetches all the contact groups (lists) maintained by the user.
+\ \\
+API URL : /callerinfo\_contact\_list/
+
+\item Get Contacts : To get the contacts of a particular contact list
+\ \\
+API URL : /callerinfo\_contact/
+\item Create New Contact List : To create a new contact list in GV instance
+\ \\
+API URL : /callerinfo\_contact\_list/
+\item Create Contact in Single or Multiple Contact Groups : To create a new contact and adding it to multiple contact\_lists
+\ \\
+API URL : /callerinfo\_contact/
+\end{itemize}
+
+
+\section{Audio Broadcast}
+\begin{itemize}
+\item Create New Item : It helps in creating a new item on the GV server. Creating an item instance on mnews returns instance id which will be used to upload audio on the GV server.
+\ \\
+API URL : mnews\_news /create\_new\_item/
+\item Upload Audio : MNEWS API will be called to upload an audio and make it as a news item's recording.
+\ \\
+API URL : mnews\_news\/upload\_audio\/
+\item Uploading on Default Channel : To upload audio by getting the default channel of the app instance.
+\ \\
+API URL : /media\_prompt\_audio/upload\_audio/
+\end{itemize}
+
+\newpage
+\section{Message Broadcast}
+\begin{itemize}
+\item Sending Message : Message will be sent in the form of template with various template parameters along with the target contact list.
+\ \\
+API URL : sms\_message/send/
+\item Check Message Status : sms\_message with GET request along with app instance ID can be used to check the status of message delivery for a particular caller ID.
+\ \\
+API URL : /vapp/api/v1/sms\_message/id
+\end{itemize}
+
+\ \\
+
+Note - Base URL : http://internal.gramvaani.org:8080/vapp/api/v1

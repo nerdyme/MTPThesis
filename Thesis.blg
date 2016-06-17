@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: Thesis.aux
+A level-1 auxiliary file: titlepage.aux
+A level-1 auxiliary file: certificate.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: acknowledgement.aux
+A level-1 auxiliary file: chapter1.aux
+A level-1 auxiliary file: chapter2.aux
+A level-1 auxiliary file: chapter3.aux
+A level-1 auxiliary file: chapter4.aux
+A level-1 auxiliary file: chapter5.aux
+A level-1 auxiliary file: chapter6.aux
+A level-1 auxiliary file: chapter7.aux
+A level-1 auxiliary file: chapter8.aux
+The style file: plain.bst
+Database file #1: biblio.bib
+Warning--to sort, need author or key in Ruby
+Warning--to sort, need author or key in Intro42:online
+Warning--to sort, need author or key in Andro34:online
+You've used 7 entries,
+            2118 wiz_defined-function locations,
+            546 strings with 5346 characters,
+and the built_in function-call counts, 1968 in all, are:
+= -- 189
+> -- 80
+< -- 2
++ -- 33
+- -- 26
+* -- 110
+:= -- 299
+add.period$ -- 20
+call.type$ -- 7
+change.case$ -- 33
+chr.to.int$ -- 0
+cite$ -- 10
+duplicate$ -- 85
+empty$ -- 177
+format.name$ -- 26
+if$ -- 440
+int.to.chr$ -- 0
+int.to.str$ -- 7
+missing$ -- 5
+newline$ -- 36
+num.names$ -- 8
+pop$ -- 57
+preamble$ -- 1
+purify$ -- 27
+quote$ -- 0
+skip$ -- 69
+stack$ -- 0
+substring$ -- 76
+swap$ -- 24
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 26
+warning$ -- 3
+while$ -- 13
+width$ -- 8
+write$ -- 69
+(There were 3 warnings)
