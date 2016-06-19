@@ -1,38 +1,7 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Literature Review and Related Work}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}On Ground Surveys}{2}{section.1.2}
-\contentsline {section}{\numberline {1.3}Survey's Conclusion}{4}{section.1.3}
-\contentsline {chapter}{\numberline {2}Platform and Technologies}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}Application Server / Web Server}{5}{section.2.1}
-\contentsline {section}{\numberline {2.2}Application Design}{5}{section.2.2}
-\contentsline {chapter}{\numberline {3}NGOs' Web Portal}{6}{chapter.3}
-\contentsline {section}{\numberline {3.1}Registration}{6}{section.3.1}
-\contentsline {section}{\numberline {3.2}Functionalities given to NGO People}{6}{section.3.2}
-\contentsline {chapter}{\numberline {4}Local Governance Application}{8}{chapter.4}
-\contentsline {section}{\numberline {4.1}What is Gologo?}{8}{section.4.1}
-\contentsline {section}{\numberline {4.2}Functionalities}{8}{section.4.2}
-\contentsline {section}{\numberline {4.3}Options on Menu Bar}{14}{section.4.3}
-\contentsline {section}{\numberline {4.4}Usability}{15}{section.4.4}
-\contentsline {section}{\numberline {4.5}Challenges and Suggestions}{16}{section.4.5}
-\contentsline {chapter}{\numberline {5}Gram Vaani APIs Communication}{19}{chapter.5}
-\contentsline {section}{\numberline {5.1}Launch and View Surveys}{19}{section.5.1}
-\contentsline {section}{\numberline {5.2}Contact Groups Management}{20}{section.5.2}
-\contentsline {section}{\numberline {5.3}Audio Broadcast}{20}{section.5.3}
-\contentsline {section}{\numberline {5.4}Message Broadcast}{21}{section.5.4}
-\contentsline {chapter}{\numberline {6}Results}{22}{chapter.6}
-\contentsline {section}{\numberline {6.1}Screenshots of the Application Interface}{22}{section.6.1}
-\contentsline {section}{\numberline {6.2}Screenshot of the GramVaani Web Instance}{24}{section.6.2}
-\contentsline {section}{\numberline {6.3}Screenshots of the Web Portal}{24}{section.6.3}
-\contentsline {chapter}{\numberline {7}Conclusion}{39}{chapter.7}
-\contentsline {chapter}{\numberline {8}Epilogue}{40}{chapter.8}
-\contentsline {section}{\numberline {8.1}Challenges}{40}{section.8.1}
-\contentsline {section}{\numberline {8.2}Future Work}{40}{section.8.2}
-\contentsline {chapter}{\numberline {9}Google Cloud Messaging}{41}{chapter.9}
-\contentsline {section}{\numberline {9.1}What is GCM?}{41}{section.9.1}
-\contentsline {section}{\numberline {9.2}Characteristics of GCM}{41}{section.9.2}
-\contentsline {section}{\numberline {9.3} System Architecture}{42}{section.9.3}
-\contentsline {section}{\numberline {9.4}Key Concepts of GCM}{42}{section.9.4}
-\contentsline {subsection}{\numberline {9.4.1}GCM Components}{42}{subsection.9.4.1}
-\contentsline {subsection}{\numberline {9.4.2}GCM Credentials}{43}{subsection.9.4.2}
-\contentsline {section}{\numberline {9.5}LifeCycle Flow}{43}{section.9.5}
-\contentsline {chapter}{Bibliography}{45}{chapter*.3}
+\contentsline {section}{\numberline {1.1}Objective}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Motivation}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}Brief Description}{2}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Advantages of Decentralization}{2}{subsection.1.3.1}
+\contentsline {section}{\numberline {1.4}Literature Review and Related Work}{4}{section.1.4}
+\contentsline {chapter}{Bibliography}{8}{chapter*.3}
