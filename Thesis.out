@@ -9,4 +9,32 @@
 \BOOKMARK [1][-]{section.2.2}{NGOs}{chapter.2}% 9
 \BOOKMARK [1][-]{section.2.3}{Observations and Suggestions}{chapter.2}% 10
 \BOOKMARK [1][-]{section.2.4}{Conclusions}{chapter.2}% 11
-\BOOKMARK [0][-]{chapter*.3}{Bibliography}{}% 12
+\BOOKMARK [0][-]{chapter.3}{System Architecture}{}% 12
+\BOOKMARK [0][-]{chapter.4}{Gram Vaani APIs Communication}{}% 13
+\BOOKMARK [1][-]{section.4.1}{Launch and View Surveys}{chapter.4}% 14
+\BOOKMARK [1][-]{section.4.2}{Contact Groups Management}{chapter.4}% 15
+\BOOKMARK [1][-]{section.4.3}{Audio Broadcast}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.4}{Message Broadcast}{chapter.4}% 17
+\BOOKMARK [0][-]{chapter.5}{Local Governance Application}{}% 18
+\BOOKMARK [1][-]{section.5.1}{What is Gologo?}{chapter.5}% 19
+\BOOKMARK [1][-]{section.5.2}{Functionalities}{chapter.5}% 20
+\BOOKMARK [1][-]{section.5.3}{Options on Menu Bar}{chapter.5}% 21
+\BOOKMARK [1][-]{section.5.4}{Usability}{chapter.5}% 22
+\BOOKMARK [1][-]{section.5.5}{Challenges and Suggestions}{chapter.5}% 23
+\BOOKMARK [0][-]{chapter.6}{Results}{}% 24
+\BOOKMARK [1][-]{section.6.1}{Screenshots of the Application Interface}{chapter.6}% 25
+\BOOKMARK [1][-]{section.6.2}{Screenshot of the GramVaani Web Instance}{chapter.6}% 26
+\BOOKMARK [1][-]{section.6.3}{Screenshots of the Web Portal}{chapter.6}% 27
+\BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 28
+\BOOKMARK [0][-]{chapter.8}{Epilogue}{}% 29
+\BOOKMARK [1][-]{section.8.1}{Challenges}{chapter.8}% 30
+\BOOKMARK [1][-]{section.8.2}{Future Work}{chapter.8}% 31
+\BOOKMARK [0][-]{chapter.9}{Google Cloud Messaging}{}% 32
+\BOOKMARK [1][-]{section.9.1}{What is GCM?}{chapter.9}% 33
+\BOOKMARK [1][-]{section.9.2}{Characteristics of GCM}{chapter.9}% 34
+\BOOKMARK [1][-]{section.9.3}{ System Architecture}{chapter.9}% 35
+\BOOKMARK [1][-]{section.9.4}{Key Concepts of GCM}{chapter.9}% 36
+\BOOKMARK [2][-]{subsection.9.4.1}{GCM Components}{section.9.4}% 37
+\BOOKMARK [2][-]{subsection.9.4.2}{GCM Credentials}{section.9.4}% 38
+\BOOKMARK [1][-]{section.9.5}{LifeCycle Flow}{chapter.9}% 39
+\BOOKMARK [0][-]{chapter*.3}{Bibliography}{}% 40

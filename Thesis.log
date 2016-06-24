@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.19)  24 JUN 2016 13:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.19)  24 JUN 2016 13:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -433,7 +433,9 @@ less on input line 54.
 \c@defn=\count134
 \c@fact=\count135
 (./Thesis.aux (./titlepage.aux) (./certificate.aux) (./abstract.aux)
-(./acknowledgement.aux) (./chapter1.aux) (./chapter2.aux))
+(./acknowledgement.aux) (./chapter1.aux) (./chapter2.aux) (./chapter3.aux)
+(./chapter4.aux) (./chapter5.aux) (./chapter6.aux) (./chapter7.aux)
+(./chapter8.aux) (./chapter9.aux))
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
@@ -509,7 +511,7 @@ LaTeX Info: Redefining \nameref on input line 99.
 \openout2 = `titlepage.aux'.
 
 
-(./titlepage.tex <./Figures/iit_logo.pdf, id=52, 523.60315pt x 553.20177pt>
+(./titlepage.tex <./Figures/iit_logo.pdf, id=164, 523.60315pt x 553.20177pt>
 File: ./Figures/iit_logo.pdf Graphic file (type pdf)
 
 <use ./Figures/iit_logo.pdf>
@@ -561,20 +563,29 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
-\tf@toc=\write4
-\openout4 = `Thesis.toc'.
+)
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 24.
 
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 24.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 24.
  [4
 
 
 
-] (./Thesis.lof)
+])
+\tf@toc=\write4
+\openout4 = `Thesis.toc'.
+
+ [5] (./Thesis.lof)
 \tf@lof=\write5
 \openout5 = `Thesis.lof'.
 
-
-[5
+ [6
 
 
 ]
@@ -582,14 +593,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  (./chapter1.tex
 Chapter 1.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 13.
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 13.
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 13.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
@@ -626,7 +629,7 @@ Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
- <./Figures/Decentral.png, id=118, 571.13374pt x 304.13625pt>
+ <./Figures/Decentral.png, id=307, 571.13374pt x 304.13625pt>
 File: ./Figures/Decentral.png Graphic file (type png)
 
 <use ./Figures/Decentral.png>
@@ -667,7 +670,13 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.77 
-      [5] [6]
+      [5]pdfTeX warning (ext4): destination with the same identifier (name{page
+.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.82 \item C
+            omparing Semiliterate and Illiterate Users Ability to Transition...
+[6]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
@@ -841,7 +850,594 @@ Missing character: There is no ì in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [14]) [15] (./Thesis.bbl)
+ [14]) [15]
+\openout2 = `chapter3.aux'.
+
+ (./chapter3.tex
+Chapter 3.
+) [16
+
+
+
+
+]
+\openout2 = `chapter4.aux'.
+
+ (./chapter4.tex)
+\openout2 = `chapter5.aux'.
+
+ (./chapter5.tex
+Chapter 4.
+[17
+
+
+
+
+
+
+] [18]
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+[19]
+Chapter 5.
+[20
+
+
+]
+Overfull \hbox (19.73291pt too wide) in paragraph at lines 103--107
+[]\OT1/cmr/bx/n/12 Survey Dial Outs \OT1/cmr/m/n/12 : Vol-un-teer acts as a bri
+dge be-tween the NGOs/District
+ []
+
+[21]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [22]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+ [23]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+
+Overfull \hbox (12.65134pt too wide) in paragraph at lines 165--166
+[]\OT1/cmr/m/n/12 Message Tem-plate (Hindi) - Priye ni-vaasiyon, sarkaar dwara 
+<scheme-
+ []
+
+[24]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [25] [26]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+ [27]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [28] [29]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+) [30]
+\openout2 = `chapter6.aux'.
+
+ (./chapter6.tex
+Chapter 6.
+<./Figures/pin_authenticate.png, id=506, 481.8pt x 857.2025pt>
+File: ./Figures/pin_authenticate.png Graphic file (type png)
+
+<use ./Figures/pin_authenticate.png>
+Package pdftex.def Info: ./Figures/pin_authenticate.png used on input line 9.
+(pdftex.def)             Requested size: 144.5411pt x 257.16273pt.
+
+<./Figures/authenticatemsg.png, id=507, 542.025pt x 963.6pt>
+File: ./Figures/authenticatemsg.png Graphic file (type png)
+
+<use ./Figures/authenticatemsg.png>
+Package pdftex.def Info: ./Figures/authenticatemsg.png used on input line 18.
+(pdftex.def)             Requested size: 162.60875pt x 289.08223pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./Figures/pin_recovery.png, id=508, 481.8pt x 857.2025pt>
+File: ./Figures/pin_recovery.png Graphic file (type png)
+
+<use ./Figures/pin_recovery.png>
+Package pdftex.def Info: ./Figures/pin_recovery.png used on input line 27.
+(pdftex.def)             Requested size: 144.5411pt x 257.16273pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./Figures/menuoptions.png, id=509, 542.025pt x 963.6pt>
+File: ./Figures/menuoptions.png Graphic file (type png)
+
+<use ./Figures/menuoptions.png>
+Package pdftex.def Info: ./Figures/menuoptions.png used on input line 36.
+(pdftex.def)             Requested size: 162.60875pt x 289.08223pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./Figures/audio1.png, id=510, 542.025pt x 963.6pt>
+File: ./Figures/audio1.png Graphic file (type png)
+ <use ./Figures/audio1.png>
+Package pdftex.def Info: ./Figures/audio1.png used on input line 45.
+(pdftex.def)             Requested size: 162.60875pt x 289.08223pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./Figures/audio2.png, id=511, 542.025pt x 963.6pt>
+File: ./Figures/audio2.png Graphic file (type png)
+ <use ./Figures/audio2.png>
+Package pdftex.def Info: ./Figures/audio2.png used on input line 54.
+(pdftex.def)             Requested size: 162.60875pt x 289.08223pt.
+
+[31
+
+
+
+
+ <./Figures/pin_authenticate.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./Figures/msg1.png, id=520, 542.025pt x 963.6pt>
+File: ./Figures/msg1.png Graphic file (type png)
+ <use ./Figures/msg1.png>
+Package pdftex.def Info: ./Figures/msg1.png used on input line 63.
+(pdftex.def)             Requested size: 162.60875pt x 289.08223pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./Figures/viewlaunchsurvey.png, id=521, 542.025pt x 963.6pt>
+File: ./Figures/viewlaunchsurvey.png Graphic file (type png)
+
+<use ./Figures/viewlaunchsurvey.png>
+Package pdftex.def Info: ./Figures/viewlaunchsurvey.png used on input line 72.
+(pdftex.def)             Requested size: 162.60875pt x 289.08223pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./Figures/viewsurvey.png, id=522, 542.025pt x 963.6pt>
+File: ./Figures/viewsurvey.png Graphic file (type png)
+
+<use ./Figures/viewsurvey.png>
+Package pdftex.def Info: ./Figures/viewsurvey.png used on input line 81.
+(pdftex.def)             Requested size: 162.60875pt x 289.08223pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./Figures/contactoptions.png, id=523, 542.025pt x 963.6pt>
+File: ./Figures/contactoptions.png Graphic file (type png)
+
+<use ./Figures/contactoptions.png>
+Package pdftex.def Info: ./Figures/contactoptions.png used on input line 90.
+(pdftex.def)             Requested size: 162.60875pt x 289.08223pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./Figures/contactgroups.png, id=524, 542.025pt x 963.6pt>
+File: ./Figures/contactgroups.png Graphic file (type png)
+
+<use ./Figures/contactgroups.png>
+Package pdftex.def Info: ./Figures/contactgroups.png used on input line 99.
+(pdftex.def)             Requested size: 162.60875pt x 289.08223pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./Figures/phonecontacts.png, id=525, 542.025pt x 963.6pt>
+File: ./Figures/phonecontacts.png Graphic file (type png)
+
+<use ./Figures/phonecontacts.png>
+Package pdftex.def Info: ./Figures/phonecontacts.png used on input line 108.
+(pdftex.def)             Requested size: 189.71158pt x 337.26506pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./Figures/gvinstance1.png, id=526, 1312.905pt x 654.445pt>
+File: ./Figures/gvinstance1.png Graphic file (type png)
+
+<use ./Figures/gvinstance1.png>
+Package pdftex.def Info: ./Figures/gvinstance1.png used on input line 123.
+(pdftex.def)             Requested size: 393.87454pt x 196.335pt.
+
+Overfull \hbox (3.87454pt too wide) in paragraph at lines 123--124
+ [] 
+ []
+
+[32 <./Figures/authenticatemsg.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./Figures/w1.png, id=539, 1307.88625pt x 748.7975pt>
+File: ./Figures/w1.png Graphic file (type png)
+ <use ./Figures/w1.png>
+Package pdftex.def Info: ./Figures/w1.png used on input line 141.
+(pdftex.def)             Requested size: 392.3689pt x 224.64098pt.
+
+Overfull \hbox (2.3689pt too wide) in paragraph at lines 141--142
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./Figures/w10.png, id=541, 635.37375pt x 662.475pt>
+File: ./Figures/w10.png Graphic file (type png)
+ <use ./Figures/w10.png>
+Package pdftex.def Info: ./Figures/w10.png used on input line 151.
+(pdftex.def)             Requested size: 190.61359pt x 198.74403pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./Figures/w14.png, id=542, 1307.88625pt x 748.7975pt>
+File: ./Figures/w14.png Graphic file (type png)
+ <use ./Figures/w14.png>
+Package pdftex.def Info: ./Figures/w14.png used on input line 162.
+(pdftex.def)             Requested size: 392.3689pt x 224.64098pt.
+
+Overfull \hbox (2.3689pt too wide) in paragraph at lines 162--163
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./Figures/w15.png, id=543, 413.545pt x 552.0625pt>
+File: ./Figures/w15.png Graphic file (type png)
+ <use ./Figures/w15.png>
+Package pdftex.def Info: ./Figures/w15.png used on input line 173.
+(pdftex.def)             Requested size: 124.06445pt x 165.62003pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./Figures/w16.png, id=544, 1307.88625pt x 748.7975pt>
+File: ./Figures/w16.png Graphic file (type png)
+ <use ./Figures/w16.png>
+Package pdftex.def Info: ./Figures/w16.png used on input line 185.
+(pdftex.def)             Requested size: 392.3689pt x 224.64098pt.
+
+Overfull \hbox (2.3689pt too wide) in paragraph at lines 185--186
+ [] 
+ []
+
+[33 <./Figures/pin_recovery.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./Figures/w13.png, id=554, 1307.88625pt x 748.7975pt>
+File: ./Figures/w13.png Graphic file (type png)
+ <use ./Figures/w13.png>
+Package pdftex.def Info: ./Figures/w13.png used on input line 195.
+(pdftex.def)             Requested size: 392.3689pt x 224.64098pt.
+
+Overfull \hbox (2.3689pt too wide) in paragraph at lines 195--196
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./Figures/w11.png, id=555, 1307.88625pt x 748.7975pt>
+File: ./Figures/w11.png Graphic file (type png)
+ <use ./Figures/w11.png>
+Package pdftex.def Info: ./Figures/w11.png used on input line 205.
+(pdftex.def)             Requested size: 392.3689pt x 224.64098pt.
+
+Overfull \hbox (2.3689pt too wide) in paragraph at lines 205--206
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./Figures/w12.png, id=556, 1307.88625pt x 748.7975pt>
+File: ./Figures/w12.png Graphic file (type png)
+ <use ./Figures/w12.png>
+Package pdftex.def Info: ./Figures/w12.png used on input line 215.
+(pdftex.def)             Requested size: 392.3689pt x 224.64098pt.
+
+Overfull \hbox (2.3689pt too wide) in paragraph at lines 215--216
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [34 <./Figures/menuoptions.png>] [35 <./Figures/audio1.png>] [36 <./Figures/a
+udio2.png>] [37 <./Figures/msg1.png>] [38 <./Figures/viewlaunchsurvey.png>]
+[39 <./Figures/viewsurvey.png>] [40 <./Figures/contactoptions.png>] [41 <./Figu
+res/contactgroups.png>] [42 <./Figures/phonecontacts.png>] [43 <./Figures/gvins
+tance1.png> <./Figures/w1.png>] [44 <./Figures/w10.png> <./Figures/w14.png>]
+[45 <./Figures/w15.png> <./Figures/w16.png>] [46 <./Figures/w13.png> <./Figures
+/w11.png>] [47 <./Figures/w12.png>]
+\openout2 = `chapter7.aux'.
+
+ (./chapter7.tex
+Chapter 7.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+) [48
+
+
+
+
+]
+\openout2 = `chapter8.aux'.
+
+ (./chapter8.tex
+Chapter 8.
+) [49
+
+
+
+
+]
+\openout2 = `chapter9.aux'.
+
+ (./chapter9.tex
+Chapter 9.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+<./Figures/GCM.jpg, id=643, 491.8375pt x 554.07pt>
+File: ./Figures/GCM.jpg Graphic file (type jpg)
+ <use ./Figures/GCM.jpg>
+Package pdftex.def Info: ./Figures/GCM.jpg used on input line 20.
+(pdftex.def)             Requested size: 147.55238pt x 166.22227pt.
+
+[50
+
+
+
+
+]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+ [51 <./Figures/GCM.jpg>]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+ [52]) [53] (./Thesis.bbl)
 
 Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ Package `movie15' is obsolete and @@
@@ -849,35 +1445,46 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
-[16
+[54
 
 
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
  (./Thesis.aux (./titlepage.aux) (./certificate.aux) (./abstract.aux)
-(./acknowledgement.aux) (./chapter1.aux) (./chapter2.aux))
+(./acknowledgement.aux) (./chapter1.aux) (./chapter2.aux) (./chapter3.aux)
+(./chapter4.aux) (./chapter5.aux) (./chapter6.aux) (./chapter7.aux)
+(./chapter8.aux) (./chapter9.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 168.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 168.
-Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: D2A4D71FF2B95CC5030E4E40DF88F31A;721.
 
+
+Package rerunfilecheck Warning: File `Thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Thesis.out':
+(rerunfilecheck)             Before: FAB1771BCB4A0535C762B4861BCEBAA9;2517
+(rerunfilecheck)             After:  9B7DF01E063F5711AF38865CE4EE5023;2507.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 168.
  ) 
 Here is how much of TeX's memory you used:
- 8927 strings out of 494985
- 131365 string characters out of 6180356
- 349268 words of memory out of 5000000
- 11868 multiletter control sequences out of 15000+600000
+ 9309 strings out of 494985
+ 136690 string characters out of 6180356
+ 355268 words of memory out of 5000000
+ 12014 multiletter control sequences out of 15000+600000
  13472 words of font info for 49 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 44i,20n,43p,1067b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,20n,45p,1067b,538s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/tex
@@ -886,10 +1493,10 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Thesis.pdf (22 pages, 627605 bytes).
+Output written on Thesis.pdf (61 pages, 7904023 bytes).
 PDF statistics:
- 278 PDF objects out of 1000 (max. 8388607)
- 240 compressed objects within 3 object streams
- 84 named destinations out of 1000 (max. 500000)
- 107 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 776 PDF objects out of 1000 (max. 8388607)
+ 667 compressed objects within 7 object streams
+ 248 named destinations out of 1000 (max. 500000)
+ 441 words of extra memory for PDF output out of 10000 (max. 10000000)
 
