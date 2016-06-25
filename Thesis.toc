@@ -10,7 +10,7 @@
 \contentsline {section}{\numberline {2.4}Conclusions}{14}{section.2.4}
 \contentsline {chapter}{\numberline {3}System Architecture}{16}{chapter.3}
 \contentsline {section}{\numberline {3.1}Technologies Used}{16}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Platform and Technologies - Application Server / Web Server}{16}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.1}Platform and Technologies - Application Server}{16}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Application Design}{16}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}System Flow}{16}{section.3.2}
 \contentsline {section}{\numberline {3.3}Use Case Diagram}{18}{section.3.3}
@@ -21,10 +21,9 @@
 \contentsline {section}{\numberline {4.1}What is Gologo?}{22}{section.4.1}
 \contentsline {section}{\numberline {4.2}Application Flow}{22}{section.4.2}
 \contentsline {section}{\numberline {4.3}Functionalities}{24}{section.4.3}
-\contentsline {section}{\numberline {4.4}Hello World}{34}{section.4.4}
-\contentsline {section}{\numberline {4.5}Extra Features}{35}{section.4.5}
-\contentsline {section}{\numberline {4.6}Usability}{36}{section.4.6}
-\contentsline {section}{\numberline {4.7}Challenges and Suggestions}{37}{section.4.7}
+\contentsline {section}{\numberline {4.4}Extra Features}{35}{section.4.4}
+\contentsline {section}{\numberline {4.5}Usability}{36}{section.4.5}
+\contentsline {section}{\numberline {4.6}Challenges and Suggestions}{37}{section.4.6}
 \contentsline {chapter}{\numberline {5}Google Cloud Messaging}{40}{chapter.5}
 \contentsline {section}{\numberline {5.1}What is GCM?}{40}{section.5.1}
 \contentsline {section}{\numberline {5.2}Characteristics of GCM}{40}{section.5.2}

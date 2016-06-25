@@ -59,9 +59,9 @@ Also, User can ask for the PIN in case the user forgets the received pin. He wil
 \item \textbf{Broadcast Announcements} : After authentication from the server into the android app, the user can select the option of Broadcast Audio on the home screen. Under this option, the app user gets a recording screen through which he/she can record an audio message or any instant broadcast. Then, contacts picker screen \ref{fig:contactoptions} appears through which he can select the either of the following options :
 
 \begin{itemize}
-	\item Concerned multiple gram vaani groups 
-	\item Local contacts saved in phone 
-	\item Mobile Vaani callers between a  particular duration
+	\item Concerned multiple gram vaani groups \ref{fig:contactgroups}.
+	\item Local contacts saved in phone \ref{fig:phonecontacts}.
+	\item Mobile Vaani callers between a  particular duration.
 \end{itemize}
 
 \begin{figure}[H]
@@ -76,7 +76,7 @@ After selecting a particular option, he chooses the target people and clicks on 
 
 Recorded audio message will be saved in the mobile vaani instance as content so that people can later listen to it when they give calls to the IVR.
 
-\item \textbf{Survey Dial Outs} \label{launchsur} : Volunteer acts as a bridge between the NGOs/District officials etc to make the surveys available to the end people. Results will be notified to both the admins through application and NGO personnel through the website. User gets a list of all active surveys mapped to different application instances through which he can use one particular survey to launch in the community.
+\item \textbf{Survey Dial Outs} \label{launchsur} : Volunteer acts as a bridge between the NGOs/District officials etc to make the surveys available to the end people. Results will be notified to both the admins through application and NGO personnel through the website. User gets a list of all active surveys mapped to different application instances through which he can use one particular survey to launch in the community \ref{fig:viewlaunchsurvey}.
 
 \begin{figure}[H]
     \centering
@@ -88,7 +88,7 @@ Recorded audio message will be saved in the mobile vaani instance as content so 
 
 Volunteer  chooses this option to launch the survey in his community. A request will be sent to the application server having the authenticated gcm id to get a list of ongoing recent surveys from the gram vaani server. Each listed survey will have the following options:
 	\begin{enumerate}
-	\item{ View Survey} : Volunteer can view the questions of a particular survey. When volunteer selects a survey, the unique survey id along with the authenticated credentials will be sent to the application server.  Application user gets a list of text questions.
+	\item{ View Survey} : Volunteer can view the questions of a particular survey. When volunteer selects a survey, the unique survey id along with the authenticated credentials will be sent to the application server. Application user gets a list of text questions  \ref{fig:viewsurvey}.
 	
 \begin{figure}[H]
     \centering
@@ -114,11 +114,11 @@ Volunteer  chooses this option to launch the survey in his community. A request 
 	\end{enumerate}
 
 
-\item {View Survey responses} :  This functionality is provided to view the status of launched survey. Volunteer can track the number of people who responded the survey calls. Application also lists the count of responses corresponding to each question. In survey dial outs, it is possible that receiver won’t respond to all questions and cut the call in between.  In that scenario, volunteer also gets the statistics of responses per question. It will help him in acknowledging the survey status. He can also send the message alerts to the community regarding survey reminders.
+\item {View Survey responses} :  This functionality is provided to view the status of launched survey. Volunteer can track the number of people who responded the survey calls. Application also lists the count of responses corresponding to each question. In survey dial outs, it is possible that receiver won’t respond to all questions and cut the call in between.  In that scenario, volunteer also gets the statistics of responses per question. It will help him in acknowledging the survey status. He can also send the message alerts to the community regarding survey reminders. 
 \end{enumerate}
 
 \item\textbf {Send text Alerts} - Similar to the audio message, the user can
-send a text message to the selected contacts. The user selects the Send
+send a text message to the selected contacts \ref{fig:contactoptions}. The user selects the Send
 message button from the home screen, selects the contacts/groups from
 one or more of the three options described above and sends the message
 which then makes a request to the app server to send the message to
@@ -178,16 +178,11 @@ Message Template (Hindi) - Priye nivaasiyon​, sarkaar dwara $\langle schemenam
 
 For example, if some polio booth camp is to be organised in the community, then only the relevant people who have children of age 3-5 should be informed instead of unnecessary sending dial outs to all people.
 
-Similarly, Survey regarding death due to pregnancy will be sent to homes having women. Dial out will be made to only those contacts/ contact groups who falls in this category. 
-\section{Hello World}
-\label{sec:hello}
-
-\hyperref[sec:hello]{Word of text}
-Global surveys can be sent across all groups which are relevant to all people of the community.
+Similarly, Survey regarding death due to pregnancy will be sent to homes having women. Dial out will be made to only those contacts/ contact groups who falls in this category. Global surveys can be sent across all groups which are relevant to all people of the community.
 
  \item \textbf {Add a contact} - The app users can add a new contact. The user selects the option of Add a contact on the  home screen of application. In this option, he can fill in all the details of a new contact of his community having name, contact number, gender, date of birth, contact groups and location URI. Volunteer need not to type the name of the contact. He can simply speak the name of the person by clicking on speaker image and it will be converted into text. Phone will be a ten digit mobile number. Gender is a drop down menu containing ‘F’ and ‘M’ as the options. Date of Birth can be chosen using date picker. One contact can be added in multiple  contact groups. Contact groups are fetched from the gram vaani instance. Application user gets a check list having all existing contact groups where he can select one or more groups to add contact in it. Locations are also fetched from the gram vaani database where each location contains block, district and state \ref{fig:contact1}.
  
-Volunteer fills all the details from the options into the text boxes and spinners. When he clicks on create, a dialog box asking for confirmation pops up. He can either click on edit to change any detail or on confirm to add the new contact.
+Volunteer fills all the details from the options into the text boxes and spinners. When he clicks on create, a dialog box asking for confirmation pops up. He can either click on edit to change any detail or on confirm to add the new contact \ref{fig:contact2}.
 
 When volunteer clicks on confirm, a request having json data will be sent to the  gram vaani server from the application server to update its contacts through APIs. In json data, location URI corresponding to each location will be sent. Also, block, district and state will be extracted from the displayed locations and sent separately. Similarly, ids of the contact groups corresponding to each contact group name will be sent. In a way, json data will be sent to the server in terms of key value pairs.
 
@@ -248,41 +243,20 @@ cause of delay in sending information updates or dial outs to the community poep
 
 Since the community representatives are novice smartphone users, a rigorous training is mandatory in which dealing with phone problems along with application usability is taught. Problems such as Message Memory Full or Phone Memory Full perplex them and they are not able to handle them. The way the phone functions is that you are not able to access anything on the phone until some memory is freed. In order to counter such situations, basic guidelines were given to the community representatives in written on how to handle such situations. But this can only be done for a few specific common problems. This is necessary as when these community representatives take their phones to a local shop to be checked, at times they delete certain applications. For instance, community representative may not be able to contribute for his community due to these issues in spite of best of intentions.
 
+\item \textbf{Ignorance of Community People}
 
+People among whom the news is disseminated may not be able to interpret it. They may not understand the audio or text message.  Illiteracy regarding the basic phones usability  like how to operate, how to open message box, how to pick phone etc can also hamper the information.  Also, Peoples’  behavior of not responding to the dial outs, cutting phone  in between, not willing to respond etc are major issues. Volunteers should keep themselves in touch with the people. Initial training session to teach  basic phone usability can be organised to train them.
+
+\item \textbf{Volunteers unavailability}
+
+Delay in information reachability, unawareness, absence of volunteers, social gap among volunteers are major issues. Multiple volunteers in a community  will ensure the availability of at least one volunteer. Volunteer sociable within the community must be appointed.
+
+
+\item \textbf{Scalability and Multi-Lingual support}
+
+App is designed in hindi and english. We have to  design app in regional languages to scale and diversify it which ensures wide variability.
 \end {enumerate}
 
-
-\item \textbf{Contacts Selection }: Contacts to which the audio message is to be sent, can be selected in various ways as follows:\ref{fig:contactoptions}
-	\begin{enumerate}
-	\item	Contacts can be fetched from the GramVaani database through API call.
-	\item Contacts can be selected from the local phone address book.
-	\item The audio can be directly sent to the contacts who accessed mobilevaani in the last week/month and similarly other parameters (without fetching them).
-	\end{enumerate}
-	
-For example : The request to directly send the moderated audio to the contacts who called into mobilevaani in the past week/month
-
-
-	
-\item \textbf{Send a text message }: Similar to the audio message, the user can send a text message to the selected contacts. The user selects the “Send message” button from the home screen, selects the
-contacts/groups from one or more of the three options described above and sends the
-message which then makes a request to the app server to send the message to the
-selected contacts through Gramvaani server.\ref{fig:msg1}
-
-\item \textbf{Add/Edit a contact}
-The app users can add a new contact or edit a contact(which is already in the Gramvaani
-contact list). The user selects the option of “Add a contact” on the app’s home screen. In this option, he can fill in all the information of a new contact which is Name, Contact number, District, Age, Gender and submits the form.
-The user selects the option of “Edit a contact” on the app’s home screen. In this option he selects a contact from the fetched contact list from GramVaani and can edit any of its field and submits the form.
-Both of the above options request the GramVaani server to update its contacts through
-APIs. After updating its contacts, the app server sends “Added contact” or “Edited
-contact” response. Thus, Contacts will be synced from and to the GV contact list. \ref{fig:contactgroups} \ref{fig:phonecontacts}
-
-\item \textbf{Launch Survey} :
-Surveys to be conducted (as per NGO selects- explained later) will be listed on the tab
-“Launch Survey” where admin can select the survey to be launched along with the specified
-users or all phone users of the village. Admin acts as a bridge between the NGOs/District
-officials etc to make the surveys available to the end people. Results will be notified to
-both the admins through application and NGO personnel through the website. \ref{fig:viewlaunchsurvey} \ref{fig:viewsurvey}
-	
 \end{itemize}
 
 

@@ -10,7 +10,7 @@
 \BOOKMARK [1][-]{section.2.4}{Conclusions}{chapter.2}% 10
 \BOOKMARK [0][-]{chapter.3}{System Architecture}{}% 11
 \BOOKMARK [1][-]{section.3.1}{Technologies Used}{chapter.3}% 12
-\BOOKMARK [2][-]{subsection.3.1.1}{Platform and Technologies - Application Server / Web Server}{section.3.1}% 13
+\BOOKMARK [2][-]{subsection.3.1.1}{Platform and Technologies - Application Server}{section.3.1}% 13
 \BOOKMARK [2][-]{subsection.3.1.2}{Application Design}{section.3.1}% 14
 \BOOKMARK [1][-]{section.3.2}{System Flow}{chapter.3}% 15
 \BOOKMARK [1][-]{section.3.3}{Use Case Diagram}{chapter.3}% 16
@@ -21,23 +21,22 @@
 \BOOKMARK [1][-]{section.4.1}{What is Gologo?}{chapter.4}% 21
 \BOOKMARK [1][-]{section.4.2}{Application Flow}{chapter.4}% 22
 \BOOKMARK [1][-]{section.4.3}{Functionalities}{chapter.4}% 23
-\BOOKMARK [1][-]{section.4.4}{Hello World}{chapter.4}% 24
-\BOOKMARK [1][-]{section.4.5}{Extra Features}{chapter.4}% 25
-\BOOKMARK [1][-]{section.4.6}{Usability}{chapter.4}% 26
-\BOOKMARK [1][-]{section.4.7}{Challenges and Suggestions}{chapter.4}% 27
-\BOOKMARK [0][-]{chapter.5}{Google Cloud Messaging}{}% 28
-\BOOKMARK [1][-]{section.5.1}{What is GCM?}{chapter.5}% 29
-\BOOKMARK [1][-]{section.5.2}{Characteristics of GCM}{chapter.5}% 30
-\BOOKMARK [1][-]{section.5.3}{GCM System Architecture}{chapter.5}% 31
-\BOOKMARK [1][-]{section.5.4}{Key Concepts of GCM}{chapter.5}% 32
-\BOOKMARK [2][-]{subsection.5.4.1}{GCM Components}{section.5.4}% 33
-\BOOKMARK [2][-]{subsection.5.4.2}{GCM Credentials}{section.5.4}% 34
-\BOOKMARK [1][-]{section.5.5}{Life Cycle Flow}{chapter.5}% 35
-\BOOKMARK [0][-]{chapter.6}{Epilogue}{}% 36
-\BOOKMARK [1][-]{section.6.1}{Challenges}{chapter.6}% 37
-\BOOKMARK [1][-]{section.6.2}{Conclusion}{chapter.6}% 38
-\BOOKMARK [1][-]{section.6.3}{Future Work}{chapter.6}% 39
-\BOOKMARK [0][-]{chapter*.3}{Bibliography}{}% 40
-\BOOKMARK [0][-]{appendix.A}{Screenshots of the 'Gologo' Application}{}% 41
-\BOOKMARK [0][-]{appendix.B}{Screenshots of the Web Portal}{}% 42
-\BOOKMARK [0][-]{appendix.C}{Screenshot of the GramVaani GUI Instance}{}% 43
+\BOOKMARK [1][-]{section.4.4}{Extra Features}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.5}{Usability}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.6}{Challenges and Suggestions}{chapter.4}% 26
+\BOOKMARK [0][-]{chapter.5}{Google Cloud Messaging}{}% 27
+\BOOKMARK [1][-]{section.5.1}{What is GCM?}{chapter.5}% 28
+\BOOKMARK [1][-]{section.5.2}{Characteristics of GCM}{chapter.5}% 29
+\BOOKMARK [1][-]{section.5.3}{GCM System Architecture}{chapter.5}% 30
+\BOOKMARK [1][-]{section.5.4}{Key Concepts of GCM}{chapter.5}% 31
+\BOOKMARK [2][-]{subsection.5.4.1}{GCM Components}{section.5.4}% 32
+\BOOKMARK [2][-]{subsection.5.4.2}{GCM Credentials}{section.5.4}% 33
+\BOOKMARK [1][-]{section.5.5}{Life Cycle Flow}{chapter.5}% 34
+\BOOKMARK [0][-]{chapter.6}{Epilogue}{}% 35
+\BOOKMARK [1][-]{section.6.1}{Challenges}{chapter.6}% 36
+\BOOKMARK [1][-]{section.6.2}{Conclusion}{chapter.6}% 37
+\BOOKMARK [1][-]{section.6.3}{Future Work}{chapter.6}% 38
+\BOOKMARK [0][-]{chapter*.3}{Bibliography}{}% 39
+\BOOKMARK [0][-]{appendix.A}{Screenshots of the 'Gologo' Application}{}% 40
+\BOOKMARK [0][-]{appendix.B}{Screenshots of the Web Portal}{}% 41
+\BOOKMARK [0][-]{appendix.C}{Screenshot of the GramVaani GUI Instance}{}% 42
