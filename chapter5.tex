@@ -6,7 +6,7 @@
 
 Gologo is an android operating system based local governance application which will provide the functionalities to volunteers for sending infotainment news and announcements to the local residentials of the community. Users (Volunteers) of the application will be able to broadcast news among localites in an easy and quick way.  The system provides platform to send quick audio and message updates to the relevant users. Volunteers will receive alerts regarding ongoing surveys from the authorized block/ district officials (through web portal)  on their application to launch surveys in their community. They can also track responses of the people for the surveys which are launched. Consequentially, System helps in delegating governance responsibilities to the community people in an effective and relevant manner.
 
-\section{ Application Flow}
+\section{Application Flow}
  Entire flow of the application is explained through the application flow diagram. User interaction with the application is designed in a  very easy way as application icons implicitly depict the functionalities. The sequence of activities is described by the below diagram.
 
 \begin{figure}[H]
@@ -76,7 +76,7 @@ After selecting a particular option, he chooses the target people and clicks on 
 
 Recorded audio message will be saved in the mobile vaani instance as content so that people can later listen to it when they give calls to the IVR.
 
-\item \textbf{Survey Dial Outs} : Volunteer acts as a bridge between the NGOs/District officials etc to make the surveys available to the end people. Results will be notified to both the admins through application and NGO personnel through the website. User gets a list of all active surveys mapped to different application instances through which he can use one particular survey to launch in the community.
+\item \textbf{Survey Dial Outs} \label{launchsur} : Volunteer acts as a bridge between the NGOs/District officials etc to make the surveys available to the end people. Results will be notified to both the admins through application and NGO personnel through the website. User gets a list of all active surveys mapped to different application instances through which he can use one particular survey to launch in the community.
 
 \begin{figure}[H]
     \centering
@@ -172,14 +172,17 @@ Message Template (Hindi) - Priye nivaasiyon​, sarkaar dwara $\langle schemenam
 \begin{figure}[H]
     \centering
 	\includegraphics[width=0.8\textwidth]{SDAddGroup.png}
-    \caption{ Sequence Diagram of adding a group}
+    \caption{ Sequence Diagram of Adding a Group}
     \label{fig:Sequence Diagram of Adding a Group}
 \end{figure}
 
 For example, if some polio booth camp is to be organised in the community, then only the relevant people who have children of age 3-5 should be informed instead of unnecessary sending dial outs to all people.
 
 Similarly, Survey regarding death due to pregnancy will be sent to homes having women. Dial out will be made to only those contacts/ contact groups who falls in this category. 
+\section{Hello World}
+\label{sec:hello}
 
+\hyperref[sec:hello]{Word of text}
 Global surveys can be sent across all groups which are relevant to all people of the community.
 
  \item \textbf {Add a contact} - The app users can add a new contact. The user selects the option of Add a contact on the  home screen of application. In this option, he can fill in all the details of a new contact of his community having name, contact number, gender, date of birth, contact groups and location URI. Volunteer need not to type the name of the contact. He can simply speak the name of the person by clicking on speaker image and it will be converted into text. Phone will be a ten digit mobile number. Gender is a drop down menu containing ‘F’ and ‘M’ as the options. Date of Birth can be chosen using date picker. One contact can be added in multiple  contact groups. Contact groups are fetched from the gram vaani instance. Application user gets a check list having all existing contact groups where he can select one or more groups to add contact in it. Locations are also fetched from the gram vaani database where each location contains block, district and state \ref{fig:contact1}.
@@ -197,9 +200,9 @@ When volunteer clicks on confirm, a request having json data will be sent to the
 
  After confirmation, the app server sends added contact response. Thus, contacts will be synced from and to the Gram vaani server.
 
-\section {Options on Menu Bar}
+\section{Extra Features}
 
-Some quick options are provided on the application which are available across all activities. Application  user can navigate across these options. Following options are explained \ref{fig:menubar}.
+Some quick options on side action bar are provided on the application which are available across all activities. Application  user can navigate across these options. Following options are explained \ref{fig:menubar}.
 \begin{enumerate}
 \item \textbf {My Profile} - A volunteer can view all his details which are entered when he was registered through the portal. His details contains his user type, name, registered number, date of birth, gender, block, district and state.
 \item \textbf{Home} - The user can directly go to the home screen from any screen.

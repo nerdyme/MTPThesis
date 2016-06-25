@@ -4,35 +4,40 @@
 \contentsline {section}{\numberline {1.3}Brief Description}{2}{section.1.3}
 \contentsline {section}{\numberline {1.4}Literature Review and Related Work}{4}{section.1.4}
 \contentsline {chapter}{\numberline {2}Landscaping Study}{8}{chapter.2}
-\contentsline {section}{\numberline {2.1}Surveys}{8}{section.2.1}
-\contentsline {section}{\numberline {2.2}NGOs}{11}{section.2.2}
+\contentsline {section}{\numberline {2.1}On Ground Surveys}{8}{section.2.1}
+\contentsline {section}{\numberline {2.2}Visit to NGOs}{11}{section.2.2}
 \contentsline {section}{\numberline {2.3}Observations and Suggestions}{13}{section.2.3}
 \contentsline {section}{\numberline {2.4}Conclusions}{14}{section.2.4}
 \contentsline {chapter}{\numberline {3}System Architecture}{16}{chapter.3}
-\contentsline {section}{\numberline {3.1}Technologies used}{16}{section.3.1}
+\contentsline {section}{\numberline {3.1}Technologies Used}{16}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Platform and Technologies - Application Server / Web Server}{16}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Application Design}{16}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}System Flow}{16}{section.3.2}
-\contentsline {section}{\numberline {3.3}Class Diagram}{16}{section.3.3}
-\contentsline {section}{\numberline {3.4}ERD Schema}{16}{section.3.4}
-\contentsline {section}{\numberline {3.5}Information flow}{16}{section.3.5}
-\contentsline {chapter}{\numberline {4}Local Governance Application}{17}{chapter.4}
-\contentsline {section}{\numberline {4.1}What is Gologo?}{17}{section.4.1}
-\contentsline {section}{\numberline {4.2} Application Flow}{17}{section.4.2}
-\contentsline {section}{\numberline {4.3}Functionalities}{19}{section.4.3}
-\contentsline {section}{\numberline {4.4}Options on Menu Bar}{30}{section.4.4}
-\contentsline {section}{\numberline {4.5}Usability}{31}{section.4.5}
-\contentsline {section}{\numberline {4.6}Challenges and Suggestions}{32}{section.4.6}
-\contentsline {chapter}{\numberline {5}Google Cloud Messaging}{35}{chapter.5}
-\contentsline {section}{\numberline {5.1}What is GCM?}{35}{section.5.1}
-\contentsline {section}{\numberline {5.2}Characteristics of GCM}{35}{section.5.2}
-\contentsline {section}{\numberline {5.3} System Architecture}{36}{section.5.3}
-\contentsline {section}{\numberline {5.4}Key Concepts of GCM}{36}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}GCM Components}{36}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}GCM Credentials}{37}{subsection.5.4.2}
-\contentsline {section}{\numberline {5.5}LifeCycle Flow}{37}{section.5.5}
-\contentsline {chapter}{\numberline {6}Epilogue}{39}{chapter.6}
-\contentsline {section}{\numberline {6.1}Challenges}{39}{section.6.1}
-\contentsline {section}{\numberline {6.2}Conclusion}{39}{section.6.2}
-\contentsline {section}{\numberline {6.3}Future Work}{40}{section.6.3}
-\contentsline {chapter}{Bibliography}{41}{chapter*.3}
-\contentsline {chapter}{\numberline {A}Screenshots of the GUI of Gologo Application}{42}{appendix.A}
-\contentsline {chapter}{\numberline {B}Screenshots of the Web Portal}{54}{appendix.B}
+\contentsline {section}{\numberline {3.3}Use Case Diagram}{18}{section.3.3}
+\contentsline {section}{\numberline {3.4}Class Diagram}{19}{section.3.4}
+\contentsline {section}{\numberline {3.5}ERD Schema}{19}{section.3.5}
+\contentsline {section}{\numberline {3.6}Information flow}{19}{section.3.6}
+\contentsline {chapter}{\numberline {4}Local Governance Application}{22}{chapter.4}
+\contentsline {section}{\numberline {4.1}What is Gologo?}{22}{section.4.1}
+\contentsline {section}{\numberline {4.2}Application Flow}{22}{section.4.2}
+\contentsline {section}{\numberline {4.3}Functionalities}{24}{section.4.3}
+\contentsline {section}{\numberline {4.4}Hello World}{34}{section.4.4}
+\contentsline {section}{\numberline {4.5}Extra Features}{35}{section.4.5}
+\contentsline {section}{\numberline {4.6}Usability}{36}{section.4.6}
+\contentsline {section}{\numberline {4.7}Challenges and Suggestions}{37}{section.4.7}
+\contentsline {chapter}{\numberline {5}Google Cloud Messaging}{40}{chapter.5}
+\contentsline {section}{\numberline {5.1}What is GCM?}{40}{section.5.1}
+\contentsline {section}{\numberline {5.2}Characteristics of GCM}{40}{section.5.2}
+\contentsline {section}{\numberline {5.3}GCM System Architecture}{41}{section.5.3}
+\contentsline {section}{\numberline {5.4}Key Concepts of GCM}{42}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}GCM Components}{42}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}GCM Credentials}{42}{subsection.5.4.2}
+\contentsline {section}{\numberline {5.5}Life Cycle Flow}{43}{section.5.5}
+\contentsline {chapter}{\numberline {6}Epilogue}{45}{chapter.6}
+\contentsline {section}{\numberline {6.1}Challenges}{45}{section.6.1}
+\contentsline {section}{\numberline {6.2}Conclusion}{45}{section.6.2}
+\contentsline {section}{\numberline {6.3}Future Work}{46}{section.6.3}
+\contentsline {chapter}{Bibliography}{47}{chapter*.3}
+\contentsline {chapter}{\numberline {A}Screenshots of the 'Gologo' Application}{48}{appendix.A}
+\contentsline {chapter}{\numberline {B}Screenshots of the Web Portal}{60}{appendix.B}
+\contentsline {chapter}{\numberline {C}Screenshot of the GramVaani GUI Instance}{65}{appendix.C}
